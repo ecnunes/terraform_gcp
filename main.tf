@@ -1,6 +1,6 @@
-resource "google_storage_bucket" "ci-cd-bucket-tf-github" {
+resource "google_storage_bucket" "my-bucket" {
   name                     = "tf-github-test-bucket"
-  project                  = "crypto-resolver-451921-d3"
+  project                  = "ci-cd-bucket-tf-github"
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
